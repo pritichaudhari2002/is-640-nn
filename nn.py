@@ -1,3 +1,5 @@
+#priti chaudhari nn.py
+
 import random
 from engine import Value
 
@@ -60,4 +62,4 @@ class MLP(Module):
         return f"MLP of [{', '.join(str(layer) for layer in self.layers)}]"
 
 
-#p
+

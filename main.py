@@ -22,9 +22,9 @@ for k in range(20):
     
     for p in n.parameters():
         p.grad = 0.0
-    loss.backward()  # All of the gradients are accumulated and start from zero
+    loss.backward()  
 
-    # Update weights
+    
     for p in n.parameters():
         p.data += -0.1 * p.grad 
 

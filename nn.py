@@ -60,4 +60,4 @@ class MLP(Module):
         return f"MLP of [{', '.join(str(layer) for layer in self.layers)}]"
 
 
-#priti chaudh
+#priti chau

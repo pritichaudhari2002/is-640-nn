@@ -80,16 +80,16 @@ class Value:
     def __rmul__(self, other): 
         return self * other
     
-    def __neg__(self): # -self
+    def __neg__(self): 
         return self * -1
 
-    def __radd__(self, other): # other + self
+    def __radd__(self, other): 
         return self + other
     
-    def __truediv__(self, other): # self / other
+    def __truediv__(self, other): 
         return self * other**-1
 
-    def __rtruediv__(self, other): # other / self
+    def __rtruediv__(self, other): 
         return other * self**-1
 
     def __repr__(self):
